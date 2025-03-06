@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgba(181, 121, 209, 0.587);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(205, 123, 243);
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bxs-trash {
+    cursor: pointer;
+    color: rgb(193, 0, 0);
+    
+}
+
+li div {
+    display: flex;
+    align-items: center;
+}
+
+li div span {
+    margin-right: 10px;
+}
+
+
+
+.bxs-check-circle {
+    cursor: pointer;
+    color: green;
+}
+
+
+button {
+    padding: 12px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(118, 29, 118);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: rgb(129, 6, 170);
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    color: white;
+    font-family: "Fjalla One", serif;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(173, 11, 227);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li:hover {
+    background-color: rgb(129, 6, 170);
+}
+
+li span{
+    flex: 1;
+    text-align: left;
+    display: inline-block;
+
+}
+
+h1 {
+    
+    font-family: "Fjalla One", serif;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(252, 206, 255)
+
+}
+
+#atv-dia {
+    font-family: "Fjalla One", serif;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#tarefa {
+    text-align: center;
+    padding: 10px;
+}
